@@ -1,0 +1,46 @@
+stationName = "Helsinki Kaiovpuisto"
+
+stationID= 132310
+
+stationLat = 60.15
+
+stationLong = 24.96
+
+stationType = "Mareograph"
+
+type(stationName)
+Out[6]: str
+
+type(stationLat)
+Out[7]: float
+
+stationName +stationType
+Out[8]: 'Helsinki KaiovpuistoMareograph'
+
+stationName + stationType
+Out[9]: 'Helsinki KaiovpuistoMareograph'
+
+stationName + ( stationType)
+Out[10]: 'Helsinki KaiovpuistoMareograph'
+
+stationIDStr = str(stationID)
+
+type(stationID)
+Out[12]: int
+
+type(stationIDStr)
+Out[13]: str
+
+print(stationIDStr + stationName)
+132310Helsinki Kaiovpuisto
+
+print(stationID + stationLong)
+132334.96
+
+print(stationName + stationIDStr)
+Helsinki Kaiovpuisto132310
+
+stationNameAndID = stationName +": " + stationIDStr
+
+print(stationNameAndID)
+Helsinki Kaiovpuisto: 132310
